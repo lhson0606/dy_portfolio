@@ -21,8 +21,8 @@
 title: deltaY portfolio
 email: lehoangson01633892497@gmail.com
 header_pages:
-  - about.md
-  - contact.md
+  - about.markdown
+  - contact.markdown
 intro: 'Hi there 👋! I''m Le Hoang Son, but you can call me "dy" (deltaY). I''m a Software Engineering student at the University of Science, Ho Chi Minh City, with a passion for game development. I''m actively learning Unreal Engine and Unity to bring my game ideas to life. I''m eager to gain practical experience through an internship where I can enhance my skills and contribute to a dynamic game development environment. 🚀🚀🚀'
 description: |
   ╔════════════════════════════╗
