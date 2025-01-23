@@ -32,7 +32,7 @@ description: |
   ║  Before you are dead       ║
   ║  Forever                   ║
   ╚════════════════════════════╝
-baseurl: "dy_portfolio" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ahpyguy
 github_username: lhson0606
