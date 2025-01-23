@@ -1,0 +1,40 @@
+.center-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .page-link {
+        margin-right: 0;
+    }
+}
+
+.avatar-container {
+    img {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    overflow: hidden;  /* Remove scrollbar */
+    max-width: 100%;  /* Ensure content fits */
+  }

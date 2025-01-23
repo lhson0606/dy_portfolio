@@ -20,16 +20,19 @@
 
 title: deltaY portfolio
 email: lehoangson01633892497@gmail.com
+intro: 'Hi there 👋, my name is Le Hoang Son, but you can call me "dy" (deltaY). I''m a student majoring in Software Engineering at the University of Science Ho Chi Minh City. I''m passionate about Game Development. I''m learning Unreal Engine and Unity to make games. I''m looking forward an internship to improve my skills and learn to make games in a professional environment.🚀🚀🚀'
 description: |
-  Projects are hard. 
-  Self-doubt is not clever. 
-  So do a lot of stuff. 
-  Before you are dead. 
-  Forever.
-baseurl: "dy_portfolio" # the subpath of your site, e.g. /blog
+  ╔════════════════════════════╗
+  ║  Projects are hard         ║
+  ║  Self-doubt is not clever  ║
+  ║  So do a lot of stuff      ║
+  ║  Before you are dead       ║
+  ║  Forever                   ║
+  ╚════════════════════════════╝
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ahpyguy
-github_username:  lhson0606
+github_username: lhson0606
 
 # Build settings
 theme: minima
@@ -41,6 +44,9 @@ defaults:
       path: "assets/img"
     values:
       image: true
+sass:
+  sass_dir: _sass
+  style: compressed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
