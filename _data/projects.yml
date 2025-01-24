@@ -1,0 +1,207 @@
+- name: OneLastSong
+  thumbnail: /assets/img/projects/OneLastSong.png
+  linkDemo: https://youtu.be/BmBa-3WBSx8?si=NnnrJaXYwIvtLTW5
+  linkRepo: https://github.com/korrotta/OneLastSong
+  deployment: null
+  projectType: School Project
+  isGameProject: false
+  tags: [WinUI3, 'C#', OpenAI]
+  team: 03 members
+  myRole: [Developer, Designer]
+  duration: 3 months
+  date: 2024-09-22
+  description: >-
+    A music application project that I make as a final project for the course Windows Programming using WinUI3. 
+    It is a simple music player that replicate the basics features of Spotify. However, it has an unique AI 
+    assistant that can control the application by user's prompts, e.g "Play the next song", "Play the previous song", 
+    "Play the song with the title 'Shape of You'", "Play gaming songs", "Stop/Start". The AI assistant is 
+    implemented using functions calling from OpenAI API.
+
+- name: Dungeon Knight
+  thumbnail: /assets/img/projects/DungeonKnight.png
+  linkDemo: https://youtu.be/T9ts1ER7x0o?si=mQOAw8MK9EpJ6MVf
+  linkRepo: https://github.com/lhson0606/Concussive
+  deployment: null
+  projectType: School Project
+  isGameProject: true
+  tags: [Unity, 'C#']
+  team: 03 members
+  myRole: [Leader, Developer]
+  duration: 3 months
+  date: 2024-10-01
+  description: >-
+    My first 2D game using Unity engine during Game Development course at the University of Science, 
+    Ho Chi Minh City. The game is a basic clone of Soul Knight, a popular mobile game. The game has 
+    3 levels, 3 types of enemies, 3 types of weapons, and 3 types of skills. The game is implemented 
+    with basic features such as player movement, enemy AI, weapon system, skill system, and level design. 
+    I am responsible for main game mechanics, player movement, and enemy AI.
+
+- name: VouGames
+  thumbnail: /assets/img/projects/VouGames.png
+  linkDemo: https://youtu.be/QpahCudoHGc?si=S1ellbz37xhu5IF3
+  linkRepo: https://github.com/lhson0606/vou_games
+  deployment: null
+  projectType: School Project
+  isGameProject: false
+  tags: [Flutter, Dart, 'Clean Architecture']
+  team: 05 members
+  myRole: [Developer]
+  duration: 1 month
+  date: 2024-11-16
+  description: >-
+    A team project for Software Architecture, in which I have to build a mobile application for customers 
+    to play games to earn vouchers. The application features multiple players real-time quiz games using 
+    Websocket with an AI MC asking questions using a OpenAI and Text to Speech library. This is also the 
+    first time I learn about clean architecture and apply it to the project.
+
+- name: Buy Phone One
+  thumbnail: /assets/img/projects/BuyPhoneOne.png
+  linkDemo: https://youtu.be/fNCSXIEJWIg?si=b_Mp7usapLpmTJeC
+  linkRepo: https://github.com/Uniqueanh/BuyPhoneWebsite
+  deployment: https://buy-phone-website-uniqueanhs-projects.vercel.app/shopping/homepage
+  projectType: School Project
+  isGameProject: false
+  tags: [ReactJS, MIUI, Firebase]
+  team: 04 members
+  myRole: [Developer, 'Backend Developer']
+  duration: 3 months
+  date: 2024-03-01
+  description: >-
+    A team project for Web Development course, in which I have to build an e-commerce website for selling phones. 
+    The website features a shopping cart, user authentication, and product management. The website is implemented 
+    using ReactJS and Firebase.
+
+- name: Gizmo
+  thumbnail: /assets/img/projects/Gizmo.png
+  linkDemo: https://youtu.be/9rcEufkZtpQ?si=8E1TE0K-pvPmeLqz
+  linkRepo: https://github.com/lhson0606/Path-Finder-py
+  deployment: null
+  projectType: School Project
+  isGameProject: false
+  tags: [Python, OpenGL]
+  team: Solo
+  myRole: [Developer]
+  duration: 2 weeks
+  date: 2024-03-17
+  description: >-
+    A project for Computer Graphics course, in which I have to demonstrate path-finding algorithms using OpenGL 
+    (BFS, DFS, A*, Sale Person Problem). This project is done in 3D to practice my skills in OpenGL, including 
+    3D rendering, Skybox, Mask, Stencil testing, Phong shading, and lighting from the website learnopengl.com. 
+    I also wanted to implement a basic version of Gizmo feature, but I didn't have enough time to start doing it.
+
+- name: Rendering With You
+  thumbnail: /assets/img/projects/RenderingWithYou.png
+  linkDemo: https://youtu.be/D89o5acII4c?si=EOzvRx5bELRTSb0B
+  linkRepo: https://github.com/lhson0606/RenderingWithYou
+  deployment: null
+  projectType: School Project
+  isGameProject: false
+  tags: [Mobile, Java, OpenGL]
+  team: Solo
+  myRole: [Developer]
+  duration: 3 months
+  description: >-
+    A 3D chest project featuring 2 players via Socket connection, save and load game as PNG files, change camera 
+    view, background skin, and lighting. The project is implemented using Java and OpenGL. The project is done 
+    for Mobile Development course. I wanted to add Stockfish AI to play chess with the player, but I didn't figure 
+    out how to implement it.
+
+- name: Pacman clone
+  thumbnail: /assets/img/projects/PacmanClone.png
+  linkDemo: https://drive.google.com/file/d/15Y5knq8GvxveHpKxizRHTodnbpdpERei/view?usp=sharing
+  linkRepo: https://github.com/lhson0606/Pacman-2D-cpp
+  deployment: null
+  projectType: Personal Project
+  isGameProject: true
+  tags: [C++, OpenGL, 'Dear ImGUI', glm]
+  team: Solo
+  myRole: [Developer]
+  duration: 1 month
+  date: 2024-03-10
+  description: >-
+    My first 2D game using C++ and OpenGL. The game is a basic clone of Pacman. However I only finished ghosts 
+    chasing mechanics, player movement, and level design. I wanted to add more features such as power-ups, score 
+    system, and more levels, but I didn't have enough time to do it.
+
+- name: EN-VN Dictionary
+  thumbnail: /assets/img/projects/EN-VN-Dictionary.png
+  linkDemo: https://drive.google.com/file/d/1vdJR96uHKK6y4LOY_p_xmBLsmSNfx53B/view?usp=sharing
+  linkRepo: https://drive.google.com/drive/folders/1bvgTQvTef8DiS8KgXvURFEZcEpHSrygK?usp=drive_link
+  deployment: null
+  projectType: Personal Project
+  isGameProject: false
+  tags: [Java, 'Java Swing']
+  team: Solo
+  myRole: [Developer]
+  duration: 2 weeks
+  date: 2023-03-10
+  description: >-
+    A simple English-Vietnamese dictionary application using Java Swing. The application features a search bar, 
+    history, and favorite words. The application is implemented using Java Swing.
+
+- name: Remote Directory Observer
+  thumbnail: /assets/img/projects/RemoteDirectoryObserver.png
+  linkDemo: https://drive.google.com/file/d/1BSx12DRQJ0DmMkSpcm2UZq5gLnQ6m8z0/view?usp=sharing
+  linkRepo: https://drive.google.com/drive/folders/1TP0ODzXgmEwSP0ZlF-8SDMFWdurKeqSA?usp=sharing
+  deployment: null
+  projectType: Personal Project
+  isGameProject: false
+  tags: [Java, 'Java Swing', Socket]
+  team: Solo
+  myRole: [Developer]
+  duration: 2 weeks
+  date: 2023-03-24
+  description: >-
+    A simple application that observes a remote directory from many clients and notifies the user when a new file 
+    is added/modified/deleted to the directory. The application is implemented using Java Swing and Socket.
+
+- name: Toon Tank
+  thumbnail: /assets/img/projects/SimpleTankShooter.png
+  linkDemo: https://drive.google.com/file/d/1B7jSGUDW7-Ik2SVktc3SUz7_U2ltgAmS/view?usp=sharing
+  linkRepo: null
+  deployment: null
+  projectType: Personal Project
+  isGameProject: true
+  tags: ['Unreal Engine', 'C++']
+  team: Solo
+  myRole: [Developer]
+  duration: 1 week
+  date: 2024-06-03
+  description: >-
+    My very first 3D game using Unreal Engine. The game is a simple tank shooter game. The game features a player 
+    tank, enemy tank. The game is implemented using Unreal Engine and C++ following a course on Udemy: Unreal Engine 
+    C++ Developer: Learn C++ and Make Video Games.
+
+- name: Simple Shooter
+  thumbnail: /assets/img/projects/SimpleShooter.png
+  linkDemo: https://drive.google.com/file/d/13Z4Ehrcc7VZ5X7cXJbRjoeTSa4sEJYdb/view?usp=drive_link
+  linkRepo: null
+  deployment: null
+  projectType: Personal Project
+  isGameProject: true
+  tags: ['Unreal Engine', 'C++']
+  team: Solo
+  myRole: [Developer]
+  duration: 1 week
+  date: 2024-05-17
+  description: >-
+    My very first 3D game using Unreal Engine. The game is a simple shooter game. The game features a player, enemy, 
+    and weapon. The game is implemented using Unreal Engine and C++ following a course on Udemy: Unreal Engine C++ 
+    Developer: Learn C++ and Make Video Games.
+
+- name: Crypt Raider
+  thumbnail: /assets/img/projects/CryptRaider.png
+  linkDemo: https://drive.google.com/file/d/1_StP3lWMBJYM3epF9xt1Df1xXnyYJxnO/view?usp=sharing
+  linkRepo: null
+  deployment: null
+  projectType: Personal Project
+  isGameProject: true
+  tags: ['Unreal Engine', 'C++']
+  team: Solo
+  myRole: [Developer]
+  duration: 1 week
+  date: 2024-03-03
+  description: >-
+    My very first 3D game using Unreal Engine. The game is a simple puzzle game. The game features a player, enemy, 
+    and puzzle. The game is implemented using Unreal Engine and C++ following a course on Udemy: Unreal Engine C++ 
+    Developer: Learn C++ and Make Video Games.
