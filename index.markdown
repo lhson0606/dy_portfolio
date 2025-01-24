@@ -8,6 +8,15 @@ layout: nav-layout
          alt="Profile Avatar" 
          style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
   </div>
+
+  <div class="cv-button-container">
+    <a href="https://drive.google.com/uc?export=view&id={{ site.my_cv }}" 
+      class="btn-outline" 
+      target="_blank" 
+      rel="noopener">
+      View my CV
+    </a>
+  </div>
   
   <div class="intro-text" style="text-align: center; max-width: 600px; margin: 2em auto;">
     {{ site.intro }}

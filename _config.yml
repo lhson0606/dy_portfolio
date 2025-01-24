@@ -37,6 +37,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ahpyguy
 github_username: lhson0606
 number_of_projects_per_page: 4
+my_cv: '15AcqJIdQ17gfO_eWNlvy0l1kG9eIqFau'
 
 # Build settings
 theme: minima
