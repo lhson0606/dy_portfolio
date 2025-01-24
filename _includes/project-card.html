@@ -28,10 +28,13 @@
     <p class="project-description">{{ include.project.description | truncate: 150 | escape }}</p>
     <div class="project-footer">
             <span class="project-date">{{ include.project.date | date: "%B %Y" }}</span>
-            <a href="{{ include.project.linkDemo }}" 
+            {% if include.project.linkDemo != null and include.project.linkDemo != '' %}
+                <a href="{{ include.project.linkDemo }}" 
                    class="demo-link" 
                    target="_blank"
                    rel="noopener noreferrer">Demo</a>
+            {% endif %}
+            
             {% if include.project.deployment != null and include.project.deployment != '' %}
                 <a href="{{ include.project.deployment }}"
                    class="live-link"

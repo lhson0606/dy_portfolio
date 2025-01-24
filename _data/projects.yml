@@ -205,3 +205,20 @@
     My very first 3D game using Unreal Engine. The game is a simple puzzle game. The game features a player, enemy, 
     and puzzle. The game is implemented using Unreal Engine and C++ following a course on Udemy: Unreal Engine C++ 
     Developer: Learn C++ and Make Video Games.
+
+- name: "My portfolio"
+  thumbnail: /assets/img/projects/MyPortfolio.png
+  linkDemo: null
+  linkRepo: 'https://github.com/lhson0606/dy_portfolio'
+  deployment: 'https://lhson0606.github.io/dy_portfolio/'
+  projectType: Personal Project
+  isGameProject: false
+  tags: [Jekyll, 'GitHub Pages']
+  team: Solo
+  myRole: [Developer]
+  duration: 1 week
+  date: 2025-25-01
+  description: >-
+    My personal portfolio website. The website is implemented using Jekyll and hosted on GitHub Pages. The website 
+    features a list of projects, certifications, work experience, education, and hobbies. The website is responsive 
+    and mobile-friendly.
