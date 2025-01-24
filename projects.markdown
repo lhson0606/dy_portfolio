@@ -19,8 +19,15 @@ permalink: /projects/
     <div class="filter-group">
       <label>Tags:</label>
       <div class="tag-filters">
-        {% assign all_tags = site.data.projects | map: "tags" | flatten | uniq | sort %}
-        {% for tag in all_tags %}
+        {% assign all_tags = '' | split: '' %}
+        {% for project in site.data.projects %}
+          {% if project.tags %}
+            {% assign all_tags = all_tags | concat: project.tags %}
+          {% endif %}
+        {% endfor %}
+        {% assign unique_tags = all_tags | uniq | sort %}
+        
+        {% for tag in unique_tags %}
           <label class="tag-checkbox">
             <input type="checkbox" value="{{ tag }}">
             <span>{{ tag }}</span>
