@@ -118,6 +118,57 @@ function showProjectModal(projectData) {
   modal.style.display = 'block';
 }
 
+function showProjectModal(projectCard) {
+  const modal = document.getElementById('project-modal');
+  const modalContent = modal.querySelector('.modal-content');
+  const data = projectCard.dataset;
+
+  // Set modal content
+  modalContent.querySelector('.modal-title').textContent = data.name;
+  modalContent.querySelector('.modal-image').src = data.thumbnail;
+  modalContent.querySelector('.modal-description').textContent = data.description;
+  modalContent.querySelector('.project-type').textContent = data.projectType;
+  modalContent.querySelector('.project-team').textContent = data.team;
+  modalContent.querySelector('.project-role').textContent = data.myRole;
+  modalContent.querySelector('.project-duration').textContent = data.duration;
+
+  // Add tags
+  const tagsContainer = modalContent.querySelector('.modal-tags');
+  const tags = data.tags.split(',');
+  tagsContainer.innerHTML = tags
+    .map(tag => `<span class="tag-chip">${tag}</span>`)
+    .join('');
+
+  // Update links visibility and hrefs
+  const demoLink = modalContent.querySelector('.demo-link');
+  const repoLink = modalContent.querySelector('.repo-link');
+  const liveLink = modalContent.querySelector('.live-link');
+
+  if (demoLink && data.linkDemo && data.linkDemo !== '') {
+    demoLink.href = data.linkDemo;
+    demoLink.style.display = 'inline-block';
+  } else if (demoLink) {
+    demoLink.style.display = 'none';
+  }
+
+  if (repoLink && data.linkRepo && data.linkRepo !== '') {
+    repoLink.href = data.linkRepo;
+    repoLink.style.display = 'inline-block';
+  } else if (repoLink) {
+    repoLink.style.display = 'none';
+  }
+
+  if (liveLink && data.deployment && data.deployment !== '') {
+    liveLink.href = data.deployment;
+    liveLink.style.display = 'inline-block';
+  } else if (liveLink) {
+    liveLink.style.display = 'none';
+  }
+
+  // Show modal
+  modal.style.display = 'block';
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   // Initial setup
   const projectsGrid = document.querySelector('.projects-grid');
@@ -129,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.querySelector('.projects-grid').addEventListener('click', e => {
     const projectCard = e.target.closest('.project-card');
-    if (projectCard) showProjectModal(projectCard.dataset);
+    if (projectCard) showProjectModal(projectCard);
   });
 
   document.querySelector('.close-modal').addEventListener('click', () => {

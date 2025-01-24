@@ -1,0 +1,43 @@
+<div class="project-card" 
+     data-tags="{{ include.project.tags | join: ',' | escape }}"
+     data-is-game="{{ include.project.isGameProject }}"
+     data-project-id="{{ include.index }}"
+     data-date="{{ include.project.date }}"
+     data-name="{{ include.project.name | escape }}"
+     data-description="{{ include.project.description | escape }}"
+     data-thumbnail="{{ include.project.thumbnail | relative_url }}"
+     data-project-type="{{ include.project.projectType | escape }}"
+     data-team="{{ include.project.team | escape }}"
+     data-my-role="{{ include.project.myRole | join: ', ' | escape }}"
+     data-duration="{{ include.project.duration | escape }}"
+     data-link-demo="{{ include.project.linkDemo }}"
+     data-link-repo="{{ include.project.linkRepo }}"
+     data-deployment="{{ include.project.deployment | default: '' }}">
+  <div class="project-thumbnail">
+    <img src="{{ include.project.thumbnail | relative_url }}" 
+         alt="{{ include.project.name | escape }}"
+         loading="lazy">
+  </div>
+  <div class="project-info">
+    <h3 class="project-title">{{ include.project.name | escape }}</h3>
+    <div class="project-tags">
+      {% for tag in include.project.tags %}
+        <span class="tag-chip">{{ tag | escape }}</span>
+      {% endfor %}
+    </div>
+    <p class="project-description">{{ include.project.description | truncate: 150 | escape }}</p>
+    <div class="project-footer">
+            <span class="project-date">{{ include.project.date | date: "%B %Y" }}</span>
+            <a href="{{ include.project.linkDemo }}" 
+                   class="demo-link" 
+                   target="_blank"
+                   rel="noopener noreferrer">Demo</a>
+            {% if include.project.deployment != null and include.project.deployment != '' %}
+                <a href="{{ include.project.deployment }}"
+                   class="live-link"
+                   target="_blank"
+                   rel="noopener noreferrer">Live Site</a>
+            {% endif %}
+        </div>
+  </div>
+</div>
