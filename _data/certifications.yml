@@ -1,0 +1,15 @@
+- name: "IELTS"
+  date: 2024-10-04
+  result: "7.5 (C1): Listening: 7.5, Reading: 8.0, Writing: 7.0, Speaking: 6.5"
+  image: "assets/img/certifications/IELTS.png"
+  description: "After over a year of preparation, mostly self-study, and two months of intensive preparation with a big help from one of my relatives, I took the IELTS test and got a score of 7.5, which is considered C1 level. I am very happy with the result, as it is quite a journey for me. English is just not a tool for me to land a job, communicate with people or learn new skills, but also something that I enjoy doing."
+- name: "Học sinh giỏi cấp tỉnh môn Toán lớp 12"
+  date: 2018-03-15
+  result: "Giải ba cấp tỉnh (3rd prize at the provincial level)"
+  image: "assets/img/certifications/HS_Gioi_Toan_12.png"
+  description: "I was awarded the title of excellent student in Mathematics at the provincial level in grade 12. This is a recognition of my efforts in learning and my passion for Mathematics."
+- name: "Học sinh giỏi cấp tỉnh môn Toán lớp 9"
+  date: 2015-03-15
+  result: "Giải nhì cấp tỉnh (runner-up at the provincial level)"
+  image: "assets/img/certifications/HS_Gioi_Toan_09.png"
+  description: "I was awarded the title of excellent student in Mathematics at the provincial level in grade 9. This is a recognition of my efforts in learning and my passion for Mathematics."

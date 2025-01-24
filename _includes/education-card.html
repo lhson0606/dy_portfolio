@@ -1,0 +1,13 @@
+<div class="education-card"
+     data-name="{{ include.edu.name }}"
+     data-from="{{ include.edu.from }}"
+     data-to="{{ include.edu.to }}"
+     data-result="{{ include.edu.result }}"
+     data-description="{{ include.edu.description }}"
+     data-image="{{ include.edu.image | relative_url }}">
+  <div class="edu-info">
+    <h3 class="edu-title">{{ include.edu.name }}</h3>
+    <p class="edu-duration">{{ include.edu.from | date: "%B %Y" }} - {{ include.edu.to }}</p>
+    <p class="edu-result">{{ include.edu.result }}</p>
+  </div>
+</div>
