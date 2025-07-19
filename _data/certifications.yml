@@ -1,3 +1,8 @@
+- name: "ZPS GDF 2025 certificate"
+  date: 2025-07-18
+  result: "Game Developer Fresher"
+  image: "assets/img/certifications/ZPS_GDF_2025.jpeg"
+  description: "This certificate was awarded to me by Zingplay Studio (under VNG Corporation) for successfully completing my internship as a Game Developer Fresher. During this period, I worked on the game Chaos Age, which is similar to Clash of Clans, using Cocos2dx js. I was responsible for core battle logic and client-server synchronization, and I also worked on the replay feature."
 - name: "IELTS"
   date: 2024-10-04
   result: "7.5 (C1): Listening: 7.5, Reading: 8.0, Writing: 7.0, Speaking: 6.5"

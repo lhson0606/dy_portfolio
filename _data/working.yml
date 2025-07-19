@@ -1,0 +1,8 @@
+- title: Game Developer Fresher
+  from: "2025-05-12"
+  to: "2025-07-18"
+  location: "Ho Chi Minh City, Vietnam"
+  company: "Zingplay Studio (under VNG Corporation)"
+  workplace: "On-site"
+  position: "Internship"
+  description: "I made Chaos Age, a 2D game pretty similar to Clash of Clans, using Cocos2dx js. I was responsible for core battle logic and client server synchronization. I also worked on replay feature, which allows players to watch their previous battles. I learned a lot about game development, especially in the context of a large team and a production environment. I also gained experience in working with Cocos2dx js and improving my JavaScript skills."

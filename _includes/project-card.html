@@ -16,7 +16,8 @@
   <div class="project-thumbnail">
     <img src="{{ include.project.thumbnail | relative_url }}" 
          alt="{{ include.project.name | escape }}"
-         loading="lazy">
+         loading="lazy"
+         style="width: 100%; max-width: 300px; height: auto; object-fit: contain;">
   </div>
   <div class="project-info">
     <h3 class="project-title">{{ include.project.name | escape }}</h3>

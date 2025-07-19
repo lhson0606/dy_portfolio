@@ -9,6 +9,58 @@
     }
 }
 
+.work-card {
+  display: flex;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  .work-info {
+    flex: 1;
+  }
+
+  .work-title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .work-company {
+    margin: 0.5rem 0;
+    color: #007bff;
+    font-weight: 500;
+  }
+
+  .work-duration {
+    margin: 0.3rem 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .work-location {
+    margin: 0.3rem 0;
+    color: #888;
+    font-size: 0.9rem;
+  }
+
+  .work-position {
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    background: #f0f0f0;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: #666;
+  }
+}
+
 .avatar-container {
     img {
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);

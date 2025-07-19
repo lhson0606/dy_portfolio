@@ -223,3 +223,20 @@
     My personal portfolio website. The website is implemented using Jekyll and hosted on GitHub Pages. The website 
     features a list of projects, certifications, work experience, education, and hobbies. The website is responsive 
     and mobile-friendly.
+
+- name: 'Chaos Age (a Clash of Clan clone)'
+  thumbnail: 'assets/img/projects/ChaosAge.png'
+  linkDemo: 'https://youtu.be/aDvjh6aNh4g'
+  deployment: null
+  projectType: 'Internship'
+  isGameProject: true
+  tags: ['Cocos2dx', 'JavaScript', 'Bitzero']
+  team: '03 members'
+  myRole: ['Developer']
+  duration: '2 months'
+  date: 2025-07-18
+  description: >-
+    A Thời Loạn (pretty much like Clash of Clan) clone game that I made during my internship at VNG Zingplay Studio for 2 months. My role is
+    to implement core battle logic and synchronization between server and client using Bitzero. I also worked on replay feature,
+    which allows players to watch their previous battles and support play/pause, skip, and changing playback speed functionalities. 
+    The game is implemented using Cocos2dx JS and Bitzero framework with two other teammates.

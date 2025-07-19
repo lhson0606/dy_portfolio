@@ -1,0 +1,17 @@
+<div class="work-card"
+     data-title="{{ include.work.title }}"
+     data-from="{{ include.work.from }}"
+     data-to="{{ include.work.to }}"
+     data-location="{{ include.work.location }}"
+     data-company="{{ include.work.company }}"
+     data-workplace="{{ include.work.workplace }}"
+     data-position="{{ include.work.position }}"
+     data-description="{{ include.work.description }}">
+  <div class="work-info">
+    <h3 class="work-title">{{ include.work.title }}</h3>
+    <p class="work-company">{{ include.work.company }}</p>
+    <p class="work-duration">{{ include.work.from | date: "%B %Y" }} - {{ include.work.to | date: "%B %Y" }}</p>
+    <p class="work-location">{{ include.work.location }} • {{ include.work.workplace }}</p>
+    <span class="work-position">{{ include.work.position }}</span>
+  </div>
+</div>

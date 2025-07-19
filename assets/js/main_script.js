@@ -207,6 +207,24 @@ function showEducationModal(eduCard) {
   modal.style.display = 'block';
 }
 
+function showWorkModal(workCard) {
+  const modal = document.getElementById('work-modal');
+  const modalContent = modal?.querySelector('.modal-content');
+  if (!modal || !modalContent) return;
+
+  const data = workCard.dataset;
+
+  modalContent.querySelector('.modal-title').textContent = data.title;
+  modalContent.querySelector('.work-company').textContent = data.company;
+  modalContent.querySelector('.work-duration').textContent = 
+    `${new Date(data.from).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })} - ${new Date(data.to).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}`;
+  modalContent.querySelector('.work-location').textContent = `${data.location} • ${data.workplace}`;
+  modalContent.querySelector('.work-position').textContent = data.position;
+  modalContent.querySelector('.work-description').textContent = data.description;
+
+  modal.style.display = 'block';
+}
+
 // Initialize application
 document.addEventListener('DOMContentLoaded', function() {
   const projectsGrid = document.querySelector('.projects-grid');
@@ -237,9 +255,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectCard = e.target.closest('.project-card');
     const certCard = e.target.closest('.certification-card');
     const eduCard = e.target.closest('.education-card');
+    const workCard = e.target.closest('.work-card');
     
     if (projectCard) showProjectModal(projectCard);
     if (certCard) showCertificationModal(certCard);
     if (eduCard) showEducationModal(eduCard);
+    if (workCard) showWorkModal(workCard);
   });
 });
