@@ -8,7 +8,7 @@ permalink: /work_experience/
   <h1 class="section-header">{{ page.title }}</h1>
 
   <div class="work-list">
-    {% assign sorted_work = site.data.working | sort: "from" | reverse %}
+    {% assign sorted_work = site.data.working | reverse %}
     {% for work in sorted_work %}
       {% include work-card.html work=work %}
     {% endfor %}
