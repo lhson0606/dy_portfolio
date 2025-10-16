@@ -240,3 +240,17 @@
     to implement core battle logic and synchronization between server and client using Bitzero. I also worked on replay feature,
     which allows players to watch their previous battles and support play/pause, skip, and changing playback speed functionalities. 
     The game is implemented using Cocos2dx JS and Bitzero framework with two other teammates.
+
+- name: 'Sketch War (under development)'
+  thumbnail: 'assets/img/projects/SketchWar.png'
+  linkDemo: 'https://youtu.be/AqyCaOup3WQ'
+  deployment: null
+  projectType: 'Final Bachelor Project'
+  isGameProject: true
+  tags: ['Unity']
+  team: '04 members'
+  myRole: ['Developer, UI Designer', 'Shader Graph']
+  duration: '6 months'
+  date: 2025-08-01
+  description: >-
+    An auto battler game based on TFT that I am working on with 3 other teammates for our final bachelor project. I am responsible for implementing the UI and visual effects using Unity's Shader Graph.
